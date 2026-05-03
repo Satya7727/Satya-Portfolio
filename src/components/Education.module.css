@@ -1,0 +1,134 @@
+.section {
+  padding: 5rem 3rem;
+}
+
+.inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.label {
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  color: var(--accent);
+  text-transform: uppercase;
+  margin-bottom: 0.6rem;
+}
+
+.title {
+  font-family: 'Syne', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-bottom: 2.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1.75rem;
+  transition: transform 0.25s, border-color 0.25s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+.purple:hover { border-color: rgba(108, 99, 255, 0.5); }
+.green:hover { border-color: rgba(67, 217, 173, 0.5); }
+
+.icon {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.degree {
+  font-family: 'Syne', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.school {
+  font-size: 0.875rem;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+
+.detail {
+  font-size: 0.8rem;
+  color: var(--accent3);
+  line-height: 1.5;
+}
+
+.traits {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1.75rem;
+}
+
+.traitsTitle {
+  font-family: 'Syne', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.traitsList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.trait {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.875rem;
+  color: var(--text);
+}
+
+.traitDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .section { padding: 3.5rem 1.5rem; }
+  .title { font-size: 1.8rem; letter-spacing: -0.5px; margin-bottom: 1.75rem; }
+  .grid { grid-template-columns: 1fr; gap: 1rem; margin-bottom: 1rem; }
+  .card { padding: 1.25rem; }
+  .icon { font-size: 1.4rem; margin-bottom: 0.75rem; }
+  .degree { font-size: 0.95rem; }
+  .traits { padding: 1.25rem; }
+  .traitsList { gap: 0.5rem; }
+  .trait { font-size: 0.825rem; }
+}
+
+@media (max-width: 400px) {
+  .section { padding: 2.5rem 1rem; }
+  .title { font-size: 1.5rem; }
+  .label { font-size: 0.72rem; }
+  .card { padding: 1rem; border-radius: 12px; }
+  .degree { font-size: 0.875rem; }
+  .school { font-size: 0.8rem; }
+  .detail { font-size: 0.75rem; }
+  .traits { padding: 1rem; border-radius: 12px; }
+  .traitsTitle { font-size: 0.8rem; }
+  .trait { font-size: 0.78rem; }
+}
