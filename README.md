@@ -1,53 +1,34 @@
-# Satya Prakash Yadav — Portfolio
+# 🚀 Developer Portfolio
 
-A modern, dark-themed React portfolio built with Vite.
+Welcome to my personal developer portfolio website!
 
-## 🚀 Deploy to Netlify
+I’m a final-year B.Tech CSE student passionate about Full stack web Development with MERN Stack.
 
-### Option 1: Drag & Drop (Fastest)
-1. Run `npm install` then `npm run build`
-2. Go to [netlify.com](https://netlify.com) → **Add new site → Deploy manually**
-3. Drag the `dist/` folder into the Netlify UI
-4. Done! Your site is live.
+## 📌 About This Portfolio
 
-### Option 2: GitHub + Netlify (Auto-deploy)
-1. Push this folder to a GitHub repo
-2. Go to [netlify.com](https://netlify.com) → **Add new site → Import from Git**
-3. Connect your GitHub repo
-4. Set build settings:
-   - **Build command:** `npm run build`
-   - **Publish directory:** `dist`
-5. Click **Deploy site**
+This portfolio showcases:
 
-## 🛠 Local Development
+- 💻 My Projects
+- 🛠 Skills & Tech Stack
+- 📄 Resume
+- 📬 Contact Information
 
-```bash
-npm install
-npm run dev
-```
+## 🌐 Live Website
 
-Open [http://localhost:5173](http://localhost:5173)
+https://satya-portfolio-umber.vercel.app/
 
-## 📁 Project Structure
+## 🚀 Tech Stack
 
-```
-satya-portfolio/
-├── public/
-│   └── _redirects          # Netlify SPA routing fix
-├── src/
-│   ├── components/
-│   │   ├── Navbar.jsx / .module.css
-│   │   ├── Hero.jsx / .module.css
-│   │   ├── Skills.jsx / .module.css
-│   │   ├── Projects.jsx / .module.css
-│   │   ├── Education.jsx / .module.css
-│   │   ├── Contact.jsx / .module.css
-│   │   └── Footer.jsx / .module.css
-│   ├── App.jsx
-│   ├── App.module.css
-│   ├── index.css
-│   └── main.jsx
-├── index.html
-├── vite.config.js
-└── package.json
-```
+- HTML
+- CSS
+- JavaScript
+- React.js
+- Node.js
+- Express.js
+- MongoDB
+- MySQL
+
+## 📬 Feedback
+
+I would love feedback from developers, recruiters, and fellow students.
+
