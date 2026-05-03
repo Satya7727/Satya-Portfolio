@@ -10,7 +10,6 @@ This portfolio showcases:
 
 - 💻 My Projects
 - 🛠 Skills & Tech Stack
-- 📄 Resume
 - 📬 Contact Information
 
 ## 🌐 Live Website
